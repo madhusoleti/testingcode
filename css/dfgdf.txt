@@ -1,0 +1,45 @@
+ $(".image1").delay(700).animate({"opacity":"1","top":"-460","left":"110"},400,function(){
+			$(this).effect("bounce",{distance: 10,times: 3},500);
+		});
+		$(".image2").delay(700).animate({"opacity":"+=1","top":"-580","left":"220"},400,function(){
+			$(this).effect("bounce",{distance: 10,times: 3},500);
+		});
+		$(".image3").delay(700).animate({"opacity":"+=1","top":"-630","left":"390"},400,function(){
+			$(this).effect("bounce",{distance: 10,times: 3},500);
+		});
+		$(".image4").delay(700).animate({"opacity":"+=1","top":"-564","left":"-60"},400,function(){
+			$(this).effect('bounce',{distance: 10,direction: 'right',times: 3},500);
+		});
+		$(".image5").delay(700).animate({"opacity":"+=1","top":"-620","left":"460"},400,function(){
+			$(this).effect('bounce',{distance: 10,times: 3},500);
+		});
+		$(".image6").delay(700).animate({"opacity":"+=1","top":"-700","left":"380"},400,function(){
+			$(this).effect('bounce',{distance: 10,times: 3},500);
+		});
+		$(".image7").delay(700).animate({"opacity":"+=1","top":"-760","left":"110"},400,function(){
+			$(this).effect('bounce',{distance: 10,times: 3},500);
+		});
+		$(".image8").delay(700).animate({"opacity":"+=1","top":"-860","left":"20"},400,function(){
+			$(this).effect('bounce',{distance: 10,times: 3},500);
+		});
+		$(".image9").delay(700).animate({"opacity":"+=1","top":"-930","left":"480"},400,function(){
+			$(this).effect('bounce',{distance: 10,times: 3},500);
+		});
+		$(".image10").delay(700).animate({"opacity":"+=1","top":"-980","left":"320"},400,function(){
+			$(this).effect('bounce',{distance: 10,times: 3},500);
+		});
+		$(".image11").delay(700).animate({"opacity":"+=1","top":"-1040","left":"176"},400,function(){
+			$(this).effect('bounce',{distance: 10,times: 3},500);
+		});
+		$(".image12").delay(700).animate({"opacity":"+=1","top":"-1020","left":"254"},400,function(){
+			$(this).effect('bounce',{distance: 10,times: 3},500);
+		});
+		$(".image13").delay(700).animate({"opacity":"+=1","top":"-1020","left":"200"},400,function(){
+			$(this).effect('bounce',{distance: 10,times: 3},500);
+		});
+		$(".image14").delay(700).animate({"opacity":"+=1","top":"-1090","left":"270"},400,function(){
+			$(this).effect('bounce',{distance: 10,times: 3},500);
+		});
+		$(".image15").delay(700).animate({"opacity":"+=1","top":"-1110","left":"220"},400,function(){
+			$(this).effect('bounce',{distance: 10,times: 3},500);
+		});

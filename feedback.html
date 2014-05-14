@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+  <script src="js/1.7.2.jquery.min.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+</head>
+
+<body>
+<div id="container" class="clearfix" style="width:100%;">
+<div id="left">
+	<div class="customer-container">
+					<a href="#"><img src="img/customer_zone.png" alt="customer zone"/>
+					<span>Our Team</span></a>
+				</div>	
+</div>
+<div id="right">
+	<div class="feedback-container">	
+				 <a href="#"><img src="img/client_feedback.png" alt="client feedback"/>
+					<span>Works</span></a>
+			   </div>
+</div>
+<div id="center">
+<div class="feedback-content" style="background-color:red">
+		<ul id="services-list">
+        	<li>
+            <a href="#" class="image"><img src="img/dummy.png" alt="dummy" /></a>
+               <div class="content">
+                <h3>Louis Phillipe</h3>
+                <p>Lorem Ipsum is Simply dummy text of the printing and typesetting industry. Lorem Ispum has been the industry's standard dummy text ever since the 1500s.</p>
+              </div>
+            </li>
+            <li>
+            <a href="#" class="image"><img src="img/dummy.png" alt="dummy" /></a>
+               <div class="content">
+                <h3>Michael</h3>
+                <p>Lorem Ipsum is Simply dummy text of the printing and typesetting industry. Lorem Ispum has been the industry's standard dummy text ever since the 1500s.</p>
+              </div>
+            </li>
+            <li>
+            <a href="#" class="image"><img src="img/dummy.png" alt="dummy" /></a>
+               <div class="content">
+                <h3>Jackson</h3>
+                <p> 1500s.</p>
+              </div>
+            </li>
+            <li>
+            <a href="#" class="image"><img src="img/dummy.png" alt="dummy" /></a>
+               <div class="content">
+                <h3>Betim</h3>
+                <p>Lorem Ipsum is Simply dummy text of the printing and typesetting industry. Lorem Ispum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is Simply dummy text of the printing and typesetting industry. Lorem Ispum has been the industry's standard dummy text ever since the 1500s.</p>
+              </div>
+            </li>
+             <li>
+            <a href="#" class="image"><img src="img/dummy.png" alt="dummy" /></a>
+               <div class="content">
+                <h3>Mike</h3>
+                <p>Lorem Ipsum is Simply dummy text of the printing and typesetting industry. Lorem Ispum has been the industry's standard dummy text ever since the 1500s.</p>
+              </div>
+            </li>
+             <li>
+            <a href="#" class="image"><img src="img/dummy.png" alt="dummy" /></a>
+               <div class="content">
+                <h3>Steve</h3>
+                <p>Lorem Ipsum is Simply dummy text of the printing and typesetting industry. Lorem Ispum has been the industry's standard dummy text ever since the 1500s.</p>
+              </div>
+            </li>
+        </ul>
+    </div>   
+</div>
+<div class="clearfix"></div>
+ <div id="logo">
+					<a href="index.html"><img src="img/logo.png" alt="logo" /></a>
+				</div>
+</div>
+<script>
+ $(".feedback-container a").click(function(){
+	 alert("gfgh");
+	 $("#page-wrapper").hide('slide',{direction:'right'},200,function(){
+		 $('#feedback-page-wrapper').show('slide',{direction:'left'},200,function(){
+			
+		});
+		
+	});
+	
+  });
+  $(".customer-container a").click(function(){
+	  alert("hg");
+	 $("#page-wrapper").hide('slide',{direction:'left'},200,function(){
+		 $('#team-page-wrapper').show('slide',{direction:'right'},200,function(){
+			
+		});
+		
+	});
+	
+  });
+</script>
+</body>
+</html>

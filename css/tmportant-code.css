@@ -1,0 +1,254 @@
+/* complete project div on left */
+#main-container #left-container{
+	width: 33.333333333333333333333333333333%;
+	position: relative;
+	float: left;
+	margin-top: 100px;
+	z-index: 2;
+}
+#left-container h1{
+	float: left;
+	position: relative;
+	width: 30%;
+	height: 76px;
+	color: #455a63;
+	font-family: 'Lobster', Arial, san-serif;
+	left: 20px;
+}
+
+
+/* box middle equal to menu */
+#main-container  #middle-container{
+	float: left;
+	position: relative;
+	width: 33.333%;
+	height: 500px;
+	margin:0 400px;
+	z-index: 1;
+}
+
+#image-container{
+	float: left;
+	width: 33%;
+	
+}
+#main-container #middle-container div{
+	width: 100%;
+}
+.image1{
+	background-image: url(../img/html5.png);        
+	background-repeat: no-repeat;        
+	width: 35.9%;            
+	height: 64px;    
+	background-size:contain;
+	position: relative;
+	top: -240px;
+	left:300px;
+	z-index: 2;
+	opacity: 0;
+}
+
+.image2{
+	background: url(../img/java.png) no-repeat;
+	width: 40%;
+	height: 105px;
+	background-size:contain;
+	position: relative;
+	top: -340px;
+	left: 250px;
+	z-index: 2;
+	opacity: 0;
+}
+
+.image3{
+	background: url(../img/css3.png) no-repeat;
+	width: 40%;
+	height: 63px;
+	background-size:contain;
+	position: relative;
+	top: -400px;
+	left: 250px;
+	z-index: 2;
+	opacity: 0;
+}
+
+.image4{
+	background: url(../img/jquery.png) no-repeat;
+	width: 60%;
+	height: 94px;
+	background-size:contain;
+	position: relative;
+	top: -500px;
+	left: 180px;
+	z-index: 2;
+	opacity: 0;
+}
+.image5{
+	background: url(../img/dot-net.png) no-repeat;
+	width: 40%;
+	height: 53px;
+	background-size:contain;
+	position: relative;
+	top: -540px;
+	left: 250px;
+	z-index: 2;
+	opacity: 0;
+}
+.image6{
+	background: url(../img/php.png) no-repeat;
+	width: 40%;
+	height: 53px;
+	background-size:contain;
+	position: relative;
+	top: -600px;
+	left: 250px;
+	z-index: 2;
+	opacity: 0;
+}
+.image7{
+	background: url(../img/rails.png) no-repeat;
+	width: 40%;
+	height: 48px;
+	background-size:contain;
+	position: relative;
+	top: -660px;
+	left: 250px;
+	z-index: 2;
+	opacity: 0;
+}
+.image8{
+	background: url(../img/wordpress.png) no-repeat;
+	width: 40%;
+	height: 56px;
+	background-size:contain;
+	position: relative;
+	top: -700px;
+	left: 250px;
+	z-index: 2;
+	opacity: 0;
+}
+.image9{
+	background: url(../img/windows.png) no-repeat;
+	width: 40%;
+	height: 56px;
+	background-size:contain;
+	position: relative;
+	top: -760px;
+	left: 250px;
+	z-index: 2;
+	opacity: 0;
+}
+.image10{
+	background: url(../img/flex.png) no-repeat;
+	width: 40%;
+	height: 56px;
+	background-size:contain;
+	position: relative;
+    top: -800px;
+	left: 250px;
+	z-index: 2;
+	opacity: 0;
+}
+.image11{
+	background: url(../img/ruby.png) no-repeat;
+	width: 40%;
+	height: 36px;
+	background-size:contain;
+	position: relative;
+    top: -840px;
+	left: 250px;
+	z-index: 2;
+	opacity: 0;
+}
+.image12{
+	background: url(../img/iphone.png) no-repeat;
+	width: 40%;
+	height: 59px;
+	background-size:contain;
+	position: relative;
+	top: -900px;
+	left: 250px;
+	z-index: 2;
+	opacity: 0;
+}
+.image13{
+	background: url(../img/android-mobile.png) no-repeat;
+	width: 40%;
+	height: 64px;
+	background-size:contain;
+	position: relative;
+	top: -960px;
+	left: 250px;
+	z-index: 2;
+	opacity: 0;
+}
+.image14{
+	background: url(../img/ipad.png) no-repeat;
+	width: 50%;
+	height: 97px;
+	background-size:contain;
+	position: relative;
+	top: -1060px;
+	left: 240px;
+	z-index: 2;
+	opacity: 0;
+}
+.image15{
+	background: url(../img/android-tablet.png) no-repeat;
+	width: 50%;
+	height: 68px;
+	background-size:contain;
+	position: relative;
+	top: -1140px;
+	left: 240px;
+	z-index: 2;
+	opacity: 0;
+}
+
+
+
+#main-container #right-container{
+	width: 33.333333333333333333333333333333%;
+	position: relative;
+	float: left;
+	margin-top: 100px;
+	z-index: 2;
+}
+/* ongoing project on right side */
+#right-container h1{
+	float: right;
+	right: 20px;
+	position: relative;
+	width: 30%;
+	height: 76px;
+	color: #455a63;
+	font-family: 'Lobster', Arial, san-serif;
+	
+}
+#right-container h1 a{
+	
+	color: #455a63;
+	opacity: 0.8;
+}
+
+#right-container h1 a:hover{
+	
+opacity: 1;
+}
+
+
+#go-btn{
+	float: right;
+	position: relative;
+	right: 80px;
+	background:url(../img/go_button.png);
+	width: 60px;
+	height: 60px;
+	display: block;
+}
+#go-btn:hover{
+	background:url(../img/go_button_mouseover.png);
+	width: 60px;
+	height: 60px;
+}
+/* content ends */
